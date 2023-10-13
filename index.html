@@ -182,25 +182,17 @@ font-family: Arial, Helvetica, sans-serif;
 
 <section>  
   <div class="row">
-    <div id="vis2" class="column1" style ="object-fit: scale-down; height: auto; padding-right: 30px; "> </div>  
+    <div id="vis2" class="column2" style ="object-fit: scale-down; height: auto; padding-right: 30px; "> </div>  
   </div>
   </section>
   
-<section>  
-  <div class="row">
-    <div id="vis3" class="column1" style ="object-fit: scale-down; height: auto; padding-right: 30px; "> </div>  
-  </div>
-  </section>
 
 
   <script type="text/javascript">
   var specVis1= "js/bar.vl.json";
    
   var specVis2= "js/boxplot.vl.json";
-    
- 
-  var specVis3= "js/happinessvsle_scatter.vl.json";
-    
+
 
 
    
@@ -218,10 +210,6 @@ font-family: Arial, Helvetica, sans-serif;
   
 
     
-  vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-      
 </script>
   
   
